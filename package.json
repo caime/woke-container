@@ -1,0 +1,79 @@
+{
+  "name": "com.gizwits.ahwk",
+  "displayName": "ahwk",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "GizWifiCordovaSDK": "file:../cordova-wifisdk-plugin",
+    "com.gizscanqrcode": "~1.0.6",
+    "com.gizwits.cordova.wifi": "/Users/caime/Documents/project/anhuiwoke/cordova-wifisdk-plugin",
+    "com.pylonproducts.wifiwizard": "https://github.com/gizwits/WifiWizard.git#2.16",
+    "cordova-android": "^6.3.0",
+    "cordova-ios": "^4.5.3",
+    "cordova-open-native-settings": "^1.4.1",
+    "cordova-plugin-app-version": "^0.1.9",
+    "cordova-plugin-appavailability": "^0.4.2",
+    "cordova-plugin-compat": "^1.1.0",
+    "cordova-plugin-crosswalk-webview": "^2.3.0",
+    "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-jcore": "^1.1.12",
+    "cordova-plugin-network-information": "^1.3.3",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "^2.2.3",
+    "cordova-plugin-vibration": "^2.1.5",
+    "cordova-plugin-wechat": "^2.1.0",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "cordova-plugin-wkwebview-engine": "https://github.com/ionic-team/cordova-plugin-wkwebview-engine.git#rel/1.0.3",
+    "gizscanqrcode": "^1.0.6",
+    "ionic-plugin-keyboard": "^2.2.1",
+    "jpush-phonegap-plugin": "^3.3.2"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-network-information": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-appavailability": {},
+      "ionic-plugin-keyboard": {},
+      "cordova-plugin-device": {},
+      "com.pylonproducts.wifiwizard": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-crosswalk-webview": {
+        "XWALK_VERSION": "23+",
+        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+        "XWALK_MODE": "embedded",
+        "XWALK_MULTIPLEAPK": "true"
+      },
+      "cordova-open-native-settings": {},
+      "cordova-plugin-wkwebview-engine": {},
+      "com.gizwits.cordova.wifi": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-app-version": {},
+      "com.gizscanqrcode": {
+        "CAMERA_USAGE_DESCRIPTION": "We are using a camera to scan QR Code"
+      },
+      "cordova-plugin-wechat": {
+        "WECHATAPPID": "wx80c20f9d611fa6bc"
+      },
+      "jpush-phonegap-plugin": {
+        "APP_KEY": "95c74893bb107a4e8e9b658f"
+      }
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "devDependencies": {
+    "@ionic/cli-plugin-cordova": "1.4.1",
+    "@ionic/cli-plugin-ionic1": "2.1.1",
+    "ionic": "3.7.0"
+  }
+}

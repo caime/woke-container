@@ -1,0 +1,7 @@
+node_modules
+.idea/
+plugins/**
+platforms/**
+package-lock.json
+www/**
+!www/.KEEP_IT
